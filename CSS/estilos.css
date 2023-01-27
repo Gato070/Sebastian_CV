@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #b4f0d9;
+}
+
+/* Nombre y FOTO incluir*/
+header {
+  display: flex;
+  background-color: rgb(10, 109, 92);
+  padding: 30px;
+}
+
+h1 {
+  flex: 1;
+  text-align: left;
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+img {
+  flex: 3;
+  width: 10%;
+  max-width: fit-content;
+  height: 10%;
+  max-height: fit-content;
+  border-radius: 50%;
+  background-color: transparent;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Lista y datos */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Barra navegación y fondo total */
+section nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-color: #b4f0d9;
+  font-size: 20px;
+  padding: 20px;
+}
+
+/* Menú Barra */
+nav ul {
+  list-style-type: none;
+  /* sacamos simbologia lista */
+  margin: 0px;
+  padding: 0px;
+}
+
+nav li {
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: rgb(10, 109, 92);
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+a:link {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+a:visited {
+  color: whitesmoke;
+  background-color: transparent;
+}
+
+a:hover {
+  color: khaki;
+  background-color: transparent
+}
+
+/* descripcion trabajos posibles datos redes sociales*/
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.titulo_direccion {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: brown;
+}
+
+aside {
+  flex: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.derecho {
+  background: khaki;
+  text-align: center;
+  color: rgb(1, 80, 76);
+}
+
+.h3-der {
+  font-size: 20px;
+  text-shadow: 0 1px 3px grey;
+}
+
+/* Despedida y salida agregar */
+footer {
+  background-color: rgb(10, 109, 92);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* web responsiva */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
