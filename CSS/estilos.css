@@ -1,4 +1,6 @@
 * {
+  margin:  0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
@@ -10,18 +12,25 @@ body {
 /* Nombre y FOTO incluir*/
 header {
   display: flex;
+  align-items: center;  
   background-color: rgb(10, 109, 92);
   padding: 30px;
 }
 
-h1 {
-  flex: 1;
-  text-align: left;
+header h1 {
+  flex: 3;
+  align-items: center;
+  text-align: center;
   font-size: 30px;
   color: whitesmoke;
 }
 
-img {
+header img {
+  flex: 3;
+  align-items: center; 
+}
+
+.img {
   flex: 3;
   width: 10%;
   max-width: fit-content;
@@ -85,7 +94,14 @@ article {
   -ms-flex: 3;
   flex: 3;
   background-color: #f1f1f1;
-  padding: 20px;
+  margin: 10px;
+  padding: 10px;
+}
+article p {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 16px;
+  color: black;
 }
 
 .titulo_direccion {
@@ -101,21 +117,33 @@ aside {
 
 .derecho {
   background: khaki;
+  align-items: center;
   text-align: center;
+  color: rgb(1, 80, 76);
+}
+
+.derecho p {
+  margin-top: 3px;
   color: rgb(1, 80, 76);
 }
 
 .h3-der {
   font-size: 20px;
   text-shadow: 0 1px 3px grey;
+  color: black;
 }
 
-/* Despedida y salida agregar */
 footer {
   background-color: rgb(10, 109, 92);
   padding: 10px;
   text-align: center;
   color: white;
+}
+
+p ,h2 ,h3 {
+  text-align: center;
+  margin: 5px;
+  padding: 5px;  
 }
 
 /* web responsiva */

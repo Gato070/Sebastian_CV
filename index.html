@@ -5,67 +5,87 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculum WEB</title>
   <link rel="stylesheet" href="CSS/estilos.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <script src="JS/script.js"></script>
-
   <!--  Open Graph data  -->
   <meta property="og:title" content="Curriculum Web" />
   <meta property="og:type" content="article" />
   <meta property="og:url" content="http://www.example.com" />
   <meta property="og:image" content="http://example.com/image.jpg" />
   <meta property="og:description" content="Estos datos contienen información de posibles aspirantes al trabajo." />
-  <title>Curriculum WEB</title>
 </head>
 
-<header>
-  <h1 class="nombre">Nombre e imagen recibirlo de JSON</h1>
-  <img src="IMG/39.jpg" alt="Imagen no disponible" height="60px" width="60px"><!--Revisar tamaño imagen-->
-</header>
+<body>
 
-<section>
-  <nav>
-    <ul>
-      <li><a href="#">Datos personales</a></li>
-      <li><a href="#">Dirección</a></li>
-      <li><a href="#">Empleos</a></li>
-      <li><a href="#">Linkedin</a></li>
-      <li><a href="#">Instagram</a></li>
-      <li><a href="#">Twiter</a></li>
-    </ul>
-  </nav>
+  <header>
+    <h1 id="app"></h1>
+    <img class="img" src="IMG/39.jpg " alt=" Imagen no disponible" height="60px" width="60px">
+  </header>
 
-  <article>
-    <h2 class="titulo_direccion">Probando traer json</h2>
-    <p id="direccion"></p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perspiciatis doloremque rem hic rerum sit quos.
-      Magnam nobis sit porro blanditiis libero, facilis repudiandae ducimus nostrum, quisquam nemo sequi et?</p>
-    <p>El gatogato@gatomail.com</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo nobis beatae debitis tempore hic quidem dolor
-      dolorum omnis accusamus repudiandae! Illo ut ex commodi, officia voluptas fugiat maiores rem ipsa.</p>
-    <p>El gatogato@gatomail.com</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, labore! Aut quod quibusdam iure doloribus
-      commodi quis ex, non mollitia, facilis quaerat ea odit praesentium ipsum quae, neque blanditiis dolorem?</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, corporis quibusdam unde dolorum deleniti optio
-      atque ut architecto quis. Unde facilis quibusdam adipisci sed! Reprehenderit repellendus doloribus ex minima
-      dicta.</p>
-  </article>
+  <section>
+    <nav>
+      <ul>
+        <li><a href="#">Informacion Personal</a></li>
+        <li><a href="#">Dirección</a></li>
+        <li><a href="#">Experiencia</a></li>
+        <li><a href="#">Linkedin</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Twitter</a></li>
+      </ul>
+    </nav>
 
-  <aside>
-    <article class="derecho">
-      <h3 class="h3-der">Deportes y Hobbies</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla sit nihil ad aspernatur deserunt deleniti autem.
-        Quo mollitia animi quod, exercitationem reprehenderit saepe, tempore eveniet explicabo ratione quibusdam
-        sapiente eligendi.</p>
+    <article>
+      <h2 class="titulo_direccion">ESTUDIOS</h2>
+      <p>"Preparatoria Western, Baltimore, MD <br>
+        Graduado en el 2008"<br>
+        "Secundaria Edmonson-Westside, Baltimore, MD<br>
+        Asistí a la escuela de 2006 a 2009"</p>
+
+      <h3><strong>Diplomas</strong></h3>
+      <p>"Diploma Equivalente de Preparatoria GED"<br>
+        Richland One Adult Education Center, 2012<br>
+        Preparatoria Spring Valley, Columbia, SC<br>
+        Asistí de 2008 - 2010</p>
+
+      <h3><strong>Escuela de oficios</strong></h3>
+      <p>"Escuela Dorsey, Madison Heights, MI<br>
+        Técnico en Aire Acondicionado, 2008<br>
+        Preparatoria Portage Central, Portage, MI<br>
+        Graduado en 2005"</p>
+
+      <h3><strong>Título universitario</strong></h3>
+      <p>Graduado de la universidad<br>
+        "Ingeniero en Electrónica, 2010<br>
+        Instituto de Tecnología de Massachussets,
+        Cambridge, MA"<br>
+        "Licenciatura de Artes en Inglés, 2012<br>
+        UCLA Los Angeles, CA"</p>
     </article>
-  </aside>
-</section>
 
-<footer>
-  <p>Excelente predisposición al trabajo en equipo</p>
-  <p><strong>Note:</strong> Flexbox is not supported in Internet Explorer 10 and earlier versions.</p>
-</footer>
+    <aside>
+      <article class="derecho">
+        <h3 class="h3-der">Deportes y Hobbies</h3>
+        <p><strong>Running</strong><br>
+          Lo mio es moverme, ponerme retos y salir a cumplirlos
+          con tenacidad y autodisciplina.</p>
+        <p><strong>Fotografía</strong><br>
+          Nada como ver el mundo a través de los ojos, o del
+          objetivo de nuestra cámara.
+          Cada detalle, es importante.</p>
+      </article>
+    </aside>
+  </section>
+
+  <footer>
+    <h3><strong>Excelente predisposición al trabajo en equipo</strong></h3>
+    <p><strong>Note:</strong>Puede experimentar problemas
+      de visualición si utiliza Internet Explorer 10,
+      o versiones anteriores.</p>
+  </footer>
+
+  <script src="JS/script.js"></script>
 
 </body>
 
